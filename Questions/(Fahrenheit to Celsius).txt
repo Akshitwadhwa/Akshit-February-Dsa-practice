@@ -1,0 +1,16 @@
+********
+We need to take the following values as the input in the question
+********
+
+Minimum Fahrenheit value
+Maximum Fahrenheit value
+Step
+
+We to need to take this and given output as the celsius conversion.
+The formula used is ---
+ C = (5/9)(F – 32)
+
+>>Input Format
+---The first line of the input contains an integer denoting the Minimum Fahrenheit value. 
+---The second line of the input contains an integer denoting the Maximum Fahrenheit value. 
+---The third line of the input contains an integer denoting the Step.
