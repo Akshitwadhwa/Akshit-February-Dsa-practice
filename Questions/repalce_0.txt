@@ -1,0 +1,8 @@
+*****
+In this question we had to replace the no 0 given to us with 5
+*****
+
+For example we have to input some numbers such as 107 , 108
+
+Ouput-- 
+The Output will be 157 , 158
