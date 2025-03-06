@@ -1,0 +1,1 @@
+IN this question we have to make the reverse of the given number to us whose reverse we have to print
