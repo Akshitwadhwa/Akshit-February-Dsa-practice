@@ -6,3 +6,8 @@ It has topics such as -
 - 2DArray
 - String
 
+
+
+## Hashmap
+```python
+Hashmap is a part of the java framework 
