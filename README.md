@@ -10,7 +10,15 @@ It has topics such as -
 
 ## Hashmap
 ```python
-Hashmap is a part of the java framework
+Hashmap is a part of the java framework. There are no duplicate keys in the hash map. If there are duplicate keys then those values are replaced by the previous values.
+```
+
+## String
+```python
+
+
+
+
 
 
 
