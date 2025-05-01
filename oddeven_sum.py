@@ -1,17 +1,21 @@
-#Take N as input. Print the sum of its odd placed digits and sum of its even placed digits.
-N = input().strip()
-N = N[::-1]
-odd_sum = 0
-even_sum = 0
+def max_complete_rows(n):
+    low, high = 0, n
+    result = 0
 
-for i in range(len(N)):
-    digit = int(N[i])
-    if i % 2 ==0:
-        odd_sum += digit
-    else:
-        even_sum += digit
-    
-print(odd_sum)
-print(even_sum)
+    while low <= high:
+        mid = (low + high) // 2
+        coins_needed = mid * (mid + 1) // 2
+        
+        if coins_needed == n:
+            return mid
+        elif coins_needed < n:
+            result = mid
+            low = mid + 1
+        else:
+            high = mid - 1
+            
+    return result
 
-
+# Input
+n = int(input())
+print(max_complete_rows(n))
